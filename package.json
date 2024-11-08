@@ -1,0 +1,20 @@
+{
+  "name": "my-nodejs-app",
+  "version": "1.0.0",
+  "description": "A basic Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "echo 'Build script not defined'",
+    "install-deps": "npm install"
+  },
+  "keywords": [],
+  "author": "Rampreeth",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  }
+}
